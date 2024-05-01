@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+ 
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- header web-->
+        <h1 class="judul">Floor Coffe</h1>
+        <!-- navigasi web-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="container">
+      <div class="container">
+        <div class="item">
+          <!-- <style>
+            body {
+              background-image: url(/image/wallpaper2.jpg);
+            }
+            p {
+              color: white;
+            }
+          </style> -->
+          <img src="./assets/image/chicken-quesadillas.jpg" alt="Makanan" style="width: 200px; height: auto; margin-right: 20px" />
+          <div class="item-info">
+            <h2 style="font-size: 24px; margin: 0">Chicken Quesadillas </h2>
+            <p class="description" style="font-size: 16px; margin: 10px 0">makanan khas dari Meksiko yang terbuat dari tortilla atau roti pipih berbentuk segitiga dengan berbagai isian berupa daging ayam, keju mozzarella, dan selada.</p>
+            <p class="price" style="font-size: 18px; margin: 5px 0">Harga: Rp 25.000</p>
+            <button
+              class="buy-now-btn"
+              style="background-color: #4caf50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 0; cursor: pointer; border-radius: 5px"
+              onclick="buyNow('Chicken Quesadillas', 25000)"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </div>
+  
+        <div class="item">
+          <style>
+            p {
+              color: white;
+            }
+          </style>
+          <img src="./assets/image/Dinsum.jpg" alt="Makanan" style="width: 200px; height: auto; margin-right: 20px" />
+          <div class="item-info">
+            <h2 style="font-size: 24px; margin: 0">Dinsum </h2>
+            <p class="description" style="font-size: 16px; margin: 10px 0">Dimsum adalah hidangan tradisional khas China yang populer di Indonesia. Bentuknya bulat agak kecil seperti kue pangsit atau dumpling, serta memiliki rasa gurih.</p>
+            <p class="price" style="font-size: 18px; margin: 5px 0">Harga: Rp 25.000</p>
+            <button
+              class="buy-now-btn"
+              style="background-color: #4caf50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 0; cursor: pointer; border-radius: 5px"
+              onclick="buyNow('Dinsum', 25000)"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="item">
+          <img src="./assets/image/strawberry.jpg" alt="Minuman" style="width: 200px; height: auto; margin-right: 20px" />
+          <div class="item-info">
+            <h2 style="font-size: 24px; margin: 0">Strawberry Smootie </h2>
+            <p class="description" style="font-size: 16px; margin: 10px 0">Strawberry smoothies merupakan minuman yang populer dan menyegarkan.</p>
+            <p class="price" style="font-size: 18px; margin: 5px 0">Harga: Rp 25.000</p>
+            <button
+              class="buy-now-btn"
+              style="background-color: #4caf50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 0; cursor: pointer; border-radius: 5px"
+              onclick="buyNow('Strawberry', 25000)"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+          <style>
+            p {
+              color: black;
+            }
+            h2 {
+              color: black;
+            }
+          </style>
+          <img src="./assets/image/kebab.jpg" alt="Makanan" style="width: 200px; height: auto; margin-right: 20px" />
+          <div class="item-info">
+            <h2 style="font-size: 24px; margin: 0">Kebab </h2>
+            <p class="description" style="font-size: 16px; margin: 10px 0">Kebab adalah hidangan daging yang dimasak dengan asal-usul masakan Timur Tengah. Banyak varian yang populer di seluruh dunia.</p>
+            <p class="price" style="font-size: 18px; margin: 5px 0">Harga: Rp 18.000</p>
+            <button
+              class="buy-now-btn"
+              style="background-color: #4caf50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 0; cursor: pointer; border-radius: 5px"
+              onclick="buyNow('Kebab', 25000)"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+  
+  
+      <script>
+        function buyNow(itemName, price) {
+          alert("Anda telah memesan " + itemName + " dengan harga Rp " + price + ". Terima kasih! , Silahkan Contact Kami");
+          // Lakukan tindakan pembelian di sini
+        }
+      </script>
+      </table>
+      <footer> 
+        <p class="copy"> 
+        Copyright 2024.Suci Ramadhani
+        </p> 
+        </footer> 
+    </body>
+  </html>
